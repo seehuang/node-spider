@@ -1,5 +1,6 @@
 var superagent = require('superagent');
 var events = require("events");
+eventproxy = require('eventproxy');
 
 var emitter = new events.EventEmitter()
 
